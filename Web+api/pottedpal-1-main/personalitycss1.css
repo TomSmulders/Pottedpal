@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.4)),url(images/djaime_a_bunch_of_smartplanters_next_to_each_other_animated_car_a1b79d84-641c-4c80-8a5c-d5199ed8a949.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    
+}
+nav{
+    display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+    width: 150px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: left;
+
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+}
+.nav-links ul li .lih{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    margin-right: 910px;
+    transition: transform 1s;
+
+}
+
+@media screen and (min-width : 0px) and (max-width: 1520px) {
+    .nav-links ul li .lih{
+        
+        margin-right: 710px;
+        /*520*/
+    }
+    .layer p{
+    
+        width: 80%;
+        font-weight: 500;
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        top: 50%;
+        left: 50%;
+        
+        transform: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 0.5s;
+        
+        
+    }
+    .layer:hover p{
+    
+        top:17%;
+        opacity: 10;
+        font-size: 14px;
+    }
+  }
+
+
+/* this is the small screen or your laptop screen*/
+@media screen and (min-width : 1520px) and (max-width: 1540px) {
+    .nav-links ul li .lih{
+        
+        margin-right: 580px;
+        /*520*/
+    }
+    .layer:hover h3{
+    
+        bottom: 86%;
+        
+    }
+    .layer p{
+    
+        width: 80%;
+        font-weight: 500;
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        top: 50%;
+        left: 50%;
+        
+        transform: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 0.5s;
+        
+        
+    }
+    .layer:hover p{
+    
+        top:17%;
+        opacity: 10;
+        font-size: 14px;
+    }
+  }
+  @media screen and (min-width : 1540px) and (max-width: 1900px) {
+    .nav-links ul li .lih{
+        
+        margin-right: 910px;
+        /*520*/
+    }
+    .layer:hover h3{
+    
+        bottom: 86%;
+        
+    }
+    .layer p{
+    
+        width: 80%;
+        font-weight: 500;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        top: 50%;
+        left: 50%;
+        
+        transform: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 0.5s;
+        
+        
+    }
+    .layer:hover p{
+    
+        top:17%;
+        opacity: 10;
+        
+    }
+  }
+  @media screen and (min-width : 1900px) and (max-width: 1920px) {
+    .nav-links ul li .lih{
+        
+        margin-right: 910px;
+        /*520*/
+    }
+    .layer:hover h3{
+    
+        bottom: 86%;
+        
+    }
+    .layer p{
+    
+        width: 80%;
+        font-weight: 500;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        top: 50%;
+        left: 50%;
+        
+        transform: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 0.5s;
+        
+        
+    }
+    .layer:hover p{
+    
+        top:20%;
+        opacity: 10;
+        
+    }
+  }
+  /*@media screen and (max-width: 1410px){
+    .nav-links ul li .lih{
+        
+        margin-right: 520px;
+        background-color: aqua;
+        
+    }
+  }*/
+  /*@media screen and (max-width: 1420px) {
+    .nav-links ul li .lih{
+        
+        margin-right: 10px;
+    }
+  }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li .lih {
+    font-size: 40px;
+}
+
+.nav-links ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+    
+}
+
+
+
+.nav-links ul li :hover{
+    transform: scale(1.15);
+    
+}
+
+
+
+
+
+
+
+
+.nav-links ul li .lih::after{
+    height: 3px;
+    background: rgb(255, 0, 0);
+
+}
+.nav-links ul li .lih:hover::after{
+    width: 100%;
+}
+.nav-links ul li .li1::after{
+
+    background: rgb(251, 255, 1);
+
+}
+.nav-links ul li .li1:hover::after{
+    width: 100%;
+    
+}
+.nav-links ul li .li2::after{
+
+    background: rgb(29, 252, 0);
+
+}
+.nav-links ul li .li2:hover::after{
+    width: 100%;
+    
+}
+.nav-links ul li .li3::after{
+
+    background: rgb(0, 17, 255);
+
+}
+.nav-links ul li .li3:hover::after{
+    width: 100%;
+    
+}
+.nav-links ul li .li4::after{
+
+    background: rgb(140, 0, 255);
+
+}
+.nav-links ul li .li4:hover::after{
+    width: 100%;
+    
+}
+.nav-links ul li .li5::after{
+
+    background: rgb(255, 0, 191);
+
+}
+.nav-links ul li .li5:hover::after{
+    width: 100%;
+    
+}
+
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.text-box h1{
+    font-size: 6vw;
+}
+
+/*course*/ 
+
+.course{
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    
+}
+.course h1{
+
+    
+    padding-bottom: 50px;
+}
+.course p{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 30px 30px;
+    background: #e2e2e2;
+    border-radius: 1px;
+    
+
+}
+.shipimg_header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+
+    
+}
+.shipimg{
+    flex-basis: 31%;
+    width: 5%;
+    padding: 50px 30px;
+    
+    
+
+}
+.displaymain{
+    
+    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+
+    
+}
+/*campus*/
+.row{
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.campus{
+    width: 91%;
+    margin:auto;
+    text-align: center;
+    padding-top: 10px;
+    
+
+}
+.campus-col{
+    margin-left: 2%;
+    margin-right: 2%;
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+    position: relative;
+    overflow: hidden;
+    
+}
+.campus-col img{
+    width: 100%;
+    display: block;
+
+}
+.layer{
+    background: rgba(0, 0, 0, 0.582);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+
+}
+.layer:hover{
+    background: rgba(255, 238, 0, 0.726);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    bottom: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 10;
+    transition: 0.5s;
+
+}
+
+h2{
+    margin-top: -60px !important;
+    font-size: 40px;
+    color: #6f6fff;
+}
+
+
+.layer:hover h3{
+    
+    bottom: 82%;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+}
+/*done here*/
+.cta{
+    
+    margin: 90px auto;
+    width: 72%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/djaime_a_bunch_of_smartplanters_next_to_each_other_animated_car_a1b79d84-641c-4c80-8a5c-d5199ed8a949.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    
+}
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid rgba(255, 238, 0, 1);
+    background: rgba(255, 238, 0, 1);
+    transition: 1s;
+    color: black;
+    
+    
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgb(29, 29, 29);
+    color: #fff;
+}
+
+/*curcilair diagram*/
+@keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  .circlee-svg {
+    display: block;
+    margin: 10px auto;
+    max-height: 400px;
+  }
+  .circle-svg {
+    display: block;
+    margin: 20px auto;
+    max-height: 400px;
+  }
+  .circle-svg text {
+    text-align:center;
+    color:black;
+    font-size:10px
+  }
+  .circle-svg path.percent {
+    stroke: #6f6fff;
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  .circle-svg path.around {
+      stroke: #ececec;
+      fill: none;
+      stroke-width: 2.8;
+  }
+  .svjpart {
+    margin-top: 5%;
+    text-align:center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .forinlineflex{
+    text-align:center;
+    
+  }
+

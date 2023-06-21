@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/*curcilair diagram*/
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+.circlee-svg {
+  display: block;
+  margin: 10px auto;
+  max-height: 400px;
+}
+.circle-svg {
+  display: block;
+  margin: 20px auto;
+  max-height: 400px;
+}
+.circle-svg text {
+  text-align:center;
+  color:black;
+  font-size:10px
+}
+.circle-svg path.percent {
+  stroke: #6f6fff;
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+.circle-svg path.around {
+    stroke: #ececec;
+    fill: none;
+    stroke-width: 2.8;
+}
+.svjpart {
+  text-align:center;
+}
