@@ -19,7 +19,7 @@
 //sensor pins
 #define sensorPin 32 //D32
 #define sensorLicht 34 //D34
-#define sensorTemp 35 //D35
+#define sensorTemp 35 //D35                            D18            D23         D5              D22
 //Pins for screen                                      V              V           V               V
 U8G2_ST7920_128X64_F_SW_SPI u8g2(U8G2_R0, /* clock=*/ 18, /* data=*/ 23, /* CS=*/ 5, /* reset=*/ 22); // ESP32
 
